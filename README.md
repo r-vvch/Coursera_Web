@@ -7,7 +7,7 @@
 ### 1 неделя:
 **Основы JS**
 - Сложить два числа - [sum](https://github.com/r-vvch/Coursera_Web/tree/master/JS_part_1/1_week/sum "Перейти к расположению")
-- Проверка времени на корректность
+- Проверка времени на корректность - [time](https://github.com/r-vvch/Coursera_Web/tree/master/JS_part_1/1_week/time "Перейти к расположению")
 - Добавление интервала ко времени
 
 ### 2 неделя:
