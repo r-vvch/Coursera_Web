@@ -14,7 +14,7 @@
 **Типы данных**
 - Список хэштегов - [hashtags](https://github.com/r-vvch/Coursera_Web/tree/master/JS_part_1/2_week/hashtags "Перейти к расположению")
 - Уникальный список хэштегов - [unique_hashtags](https://github.com/r-vvch/Coursera_Web/tree/master/JS_part_1/2_week/unique_hashtags "Перейти к расположению")
-- Телефонная книга
+- Телефонная книга - [telephone_book](https://github.com/r-vvch/Coursera_Web/tree/master/JS_part_1/2_week/telephone_book "Перейти к расположению")
 
 
 ## Основы HTML и CSS
