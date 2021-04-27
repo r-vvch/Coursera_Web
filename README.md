@@ -23,16 +23,16 @@
 **Введение в HTML**
 - Разметить текст — [text_markup](https://github.com/r-vvch/Coursera_Web/tree/master/HTML_CSS_part_1/1+2_week/text_markup "Перейти к расположению")
   
-### 3 неделя
+### 3 неделя:
 **Введение в CSS**
 - Конспект — [CSS_summary](https://github.com/r-vvch/Coursera_Web/blob/master/HTML_CSS_part_1/3_week/CSS_summary.pdf "Перейти к расположению")
 
-### 4 неделя
+### 4 неделя:
 **Шрифты и текст**
 - Газета из прошлого
 - Конспект
 
-### 5 неделя
+### 5 неделя:
 **Анимации в CSS**
 - Мультик
     
