@@ -12,7 +12,14 @@
 
         <main class="global-results">
             <style>
-                /* ваш код здесь... */
+                input:checked ~ .tab {
+                    background: #000000;
+                    color: #ffffff;
+                }
+                input ~ .tab {
+                    background: #ffffff;
+                    color: #000000;
+                }
             </style>
 
             <section class="global-result">
