@@ -1,4 +1,115 @@
 /*Ссылка на шрифты кроме основного 'https://fonts.googleapis.com/css?family=Farsan|Hind+Siliguri|Racing+Sans+One|Six+Caps|Space+Mono:700'*/
+/* The New York Times font */
+@font-face {
+    font-family: 'Chomsky';
+    src: url("chomsky-font/Chomsky.woff");
+    src: url("chomsky-font/Chomsky.woff") format('woff');
+}
+/* gujarati */
+@font-face {
+    font-family: 'Farsan';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/farsan/v16/VEMwRoJ0vY_zsyzKxqWo9DU.woff2) format('woff2');
+    unicode-range: U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Farsan';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/farsan/v16/VEMwRoJ0vY_zsyzK0qWo9DU.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Farsan';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/farsan/v16/VEMwRoJ0vY_zsyzK06Wo9DU.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Farsan';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/farsan/v16/VEMwRoJ0vY_zsyzK3aWo.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* bengali */
+@font-face {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/hindsiliguri/v11/ijwTs5juQtsyLLR5jN4cxBEoTI7ax9k0.woff2) format('woff2');
+    unicode-range: U+0964-0965, U+0981-09FB, U+200C-200D, U+20B9, U+25CC;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/hindsiliguri/v11/ijwTs5juQtsyLLR5jN4cxBEoTJLax9k0.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/hindsiliguri/v11/ijwTs5juQtsyLLR5jN4cxBEoTJzaxw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Racing Sans One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/racingsansone/v11/sykr-yRtm7EvTrXNxkv5jfKKyDCAJnDnapI.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Racing Sans One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/racingsansone/v11/sykr-yRtm7EvTrXNxkv5jfKKyDCAKHDn.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+    font-family: 'Six Caps';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/sixcaps/v14/6ae_4KGrU7VR7bNmaYcV_3Q.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/spacemono/v10/i7dMIFZifjKcF5UAWdDRaPpZUFqaHjyV.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/spacemono/v10/i7dMIFZifjKcF5UAWdDRaPpZUFuaHjyV.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/spacemono/v10/i7dMIFZifjKcF5UAWdDRaPpZUFWaHg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 body
 {
     width: 1200px;
@@ -22,7 +133,7 @@ body
 .header__info
 {
     float: left;
-
+    text-align: center;
     box-sizing: border-box;
     width: 200px;
     padding: 25px 10px;
@@ -40,18 +151,27 @@ body
 .header__weather-title
 {
     margin: 0;
+    font-family: "Space Mono", monospace;
+    font-size: 117%;
+    text-align: center;
 }
 
 .header__weather-text
 {
     margin: 0;
+    text-align: justify;
+    font-size: 80%;
+    line-height: 110%;
+    text-indent: 0;
 }
 
 .header__title
 {
     overflow: visible;
-
+    font-family: Chomsky, serif;
     margin: 0;
+    text-align: center;
+    font-size: 62pt;
 }
 
 
@@ -67,7 +187,7 @@ body
 .sub-header__copyright
 {
     display: inline-block;
-
+    font-size: 60%;
     margin: 0 30px;
 }
 
@@ -88,6 +208,24 @@ body
 {
     margin-top: 0;
     margin-bottom: 10px;
+    font-family: "Six Caps", sans-serif;
+    font-size: 320%;
+    font-weight: bold;
+}
+
+.article__title.article__title_font_racing
+{
+    font-family: "Racing Sans One", sans-serif;
+    font-size: 200%;
+    column-span: all;
+}
+
+.article__title.article__title_font_farsan
+{
+    font-family: "Farsan", cursive;
+    font-size: 230%;
+    font-weight: bold;
+    column-span: all;
 }
 
 .article__help
@@ -101,24 +239,41 @@ body
 {
     margin-top: 10px;
     margin-bottom: 4px;
+    text-align: justify;
+    text-indent: 2ex;
+    font-size: 80%;
+    font-style: italic;
 }
 
 .article__author
 {
     display: block;
-
+    font-weight: bold;
+    font-size: 80%;
+    text-align: center;
     margin-top: 10px;
+    column-span: all;
 }
 
 .article__continue
 {
     display: block;
+    font-size: 80%;
+    font-style: italic;
+    text-align: center;
+    column-span: all;
 }
 
 .article__image
 {
     margin: 0;
     text-indent: 0;
+}
+
+.article__image-caption
+{
+    font-size: 0.8rem;
+    text-decoration: underline;
 }
 
 .article__image.article__image_align_right
@@ -131,6 +286,23 @@ body
 .article__subtitle
 {
     margin: 10px 0;
+    font-family: "Times New Roman", serif;
+    font-size: 117%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.article.article_columns_two
+{
+    column-count: 2;
+    column-gap: 15px;
+}
+
+p
+{
+    margin: 0;
+    text-indent: 2ex;
+    font-size: 80%;
 }
 
 /*––––––––––––––––––Блок главной фотографии–––––––––*/
@@ -147,11 +319,21 @@ body
 .main-photo__title
 {
     margin: 0;
+    font-weight: bold;
+    font-size: 120%;
 }
 
 .main-photo__desc
 {
     margin-bottom: 20px;
+    font-size: 80%;
+}
+
+.main-photo__caption
+{
+    font-size: 70%;
+    text-transform: uppercase;
+    text-align: right;
 }
 
 /*––––––––––––––––––Линия разделения––––––––––––––––*/
@@ -171,7 +353,9 @@ body
 {
     width: 70px;
     margin: 0 auto;
+    column-span: all;
 }
+
 
 /*––––––––––––––––––Центральные колонки газеты––––––––––––––––––*/
 .multicolumn
