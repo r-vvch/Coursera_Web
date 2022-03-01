@@ -29,7 +29,7 @@
 
 ### 4 неделя:
 **Шрифты и текст**
-- Газета из прошлого
+- Газета из прошлого — [newspaper](https://github.com/r-vvch/Coursera_Web/blob/master/HTML_CSS_part_1/4_week/newspaper)
 - Конспект — [fonts_text_summary](https://github.com/r-vvch/Coursera_Web/blob/master/HTML_CSS_part_1/4_week/fonts_text_summary.pdf "Перейти к расположению")
 
 ### 5 неделя:
