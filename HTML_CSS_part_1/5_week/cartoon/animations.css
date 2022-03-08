@@ -1,0 +1,154 @@
+/* CLOUDS */
+
+.cloud-1 {
+    animation: cloud-1 110s infinite linear;
+}
+
+@keyframes cloud-1 {
+    from {
+        transform: translateX(0px) scale(0.3);
+    }
+    to {
+        transform: translateX(620px) scale(0.3);
+    }
+}
+
+.cloud-2 {
+    animation: cloud-2 60s infinite linear;
+}
+
+@keyframes cloud-2 {
+    from {
+        transform: translateX(-100px) scale(-0.4, 0.4);
+    }
+    to {
+        transform: translateX(640px) scale(-0.4, 0.4);
+    }
+}
+
+.cloud-3 {
+    will-change: transform;
+    animation: cloud-3 25s infinite linear;
+}
+
+@keyframes cloud-3 {
+    from {
+        transform: translateX(-100px) scale(0.5);
+    }
+    to {
+        transform: translateX(660px) scale(0.5);
+    }
+}
+
+.cloud-4 {
+    will-change: transform;
+    animation: cloud-4 18s infinite linear;
+}
+
+@keyframes cloud-4 {
+    from {
+        transform: translateX(0px) scale(-0.6, 0.6);
+    }
+    to {
+        transform: translateX(660px) scale(-0.6, 0.6);
+    }
+}
+
+
+/* SUN */
+
+.sun-wrapper {
+    animation: sun-wrapper 100s linear infinite;
+
+}
+@keyframes sun-wrapper {
+    from {
+        transform: rotate(-85deg);
+    }
+    to {
+        transform: rotate(285deg);
+    }
+}
+
+.sun {
+    animation: sun 30s linear infinite;
+}
+
+@keyframes sun {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* SHIP */
+
+.ship {
+    animation: ship 60s linear infinite;
+}
+
+@keyframes ship {
+    from {
+        transform: translateX(110px);
+    }
+    to {
+        transform: translateX(-600px);
+    }
+}
+
+.smoke-1 {
+    will-change: transform;
+    animation: smoke 2s linear infinite;
+}
+.smoke-2 {
+    will-change: transform;
+    animation: smoke 2s linear 0.5s infinite;
+}
+.smoke-3 {
+    will-change: transform;
+    animation: smoke 2s linear 1.5s infinite;
+}
+
+@keyframes smoke {
+    0% {
+        opacity: 1;
+        transform: translate(0px) scale(1);
+    }
+    30% {
+        opacity: 7;
+        transform: translate(0px, -15px) scale(1.9);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(0px, -30px) scale(2);
+    }
+}
+
+
+/* SUNSET */
+
+.box_front {
+    animation: sunset 100s linear 0s infinite;
+}
+
+@keyframes sunset {
+    0%, 25% {
+        background: skyblue;
+        box-shadow: 0 -400px 300px -300px steelblue inset;
+    }
+    45% {
+        background: darkslateblue;
+        box-shadow: 0 -400px 300px -300px orangered inset;
+    }
+    65%, 95% {
+        background: darkslateblue;
+        box-shadow: 0 -400px 300px -300px transparent inset;
+    }
+    100% {
+        background: skyblue;
+        box-shadow: 0 -400px 300px -300px steelblue inset;
+    }
+}

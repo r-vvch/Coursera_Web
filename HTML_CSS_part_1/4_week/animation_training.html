@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation</title>
+    <style>
+        .animation {
+            height: 150px;
+            width: 150px;
+            background-color: #f00;
+            animation: animenime 3s linear infinite alternate;
+        }
+        @keyframes animenime {
+            30% {
+                transform: translate(100px)
+            }
+            60% {
+                transform: translate(100px, 100%);
+            }
+            100% {
+                transform: translate(100px, 100%) scale(2) rotate(145deg);
+            }
+        }
+        .animation:hover {
+            background-color: #ff0;
+            transition: 500ms linear;
+        }
+    </style>
+</head>
+<body>
+    <div class="animation"></div>
+</body>
+</html>

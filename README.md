@@ -34,6 +34,7 @@
 
 ### 5 неделя:
 **Анимации в CSS**
-- Мультик
+- Тренировка с анимациями — [animation_training](https://github.com/r-vvch/Coursera_Web/blob/master/HTML_CSS_part_1/5_week/animation_training.html)
+- Мультик — [cartoon](https://github.com/r-vvch/Coursera_Web/blob/master/HTML_CSS_part_1/5_week/cartoon)
 
 
