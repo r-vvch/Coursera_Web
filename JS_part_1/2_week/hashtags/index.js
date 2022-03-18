@@ -5,15 +5,12 @@
 
 module.exports = function (tweet) {
     var tweetList = tweet.split(' ');
-    var hashtagList = tweetList.filter(isHashtag);
+    var hashtagList = tweetList.filter(word => {
+        return word[0] === '#';
+    });
     var tagList = [];
-    for (var i = 0; i < hashtagList.length; i++) {
-        tagList.push(hashtagList[i].slice(1));
-    }
+    hashtagList.forEach(element => {
+        tagList.push(element.slice(1))
+    })
     return tagList;
 };
-
-function isHashtag (word) {
-    return word[0] === '#';
-
-}

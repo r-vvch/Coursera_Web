@@ -20,4 +20,10 @@ assert.deepEqual(
     ' содержит хэштеги "web, coursera, javascript, script, programming"'
 );
 
+assert.deepEqual(
+    normalizeHashTags([]),
+    '',
+    'Пустой массив должен возвращать пустую строку'
+);
+
 console.info('OK!');
