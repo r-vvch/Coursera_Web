@@ -16,6 +16,17 @@
 - Уникальный список хэштегов — [unique_hashtags](https://github.com/r-vvch/Coursera_Web/tree/master/JS_part_1/2_week/unique_hashtags "Перейти к расположению")
 - Телефонная книга — [telephone_book](https://github.com/r-vvch/Coursera_Web/tree/master/JS_part_1/2_week/telephone_book "Перейти к расположению")
 
+### 3 неделя:
+**Типы данных. Продолжение**
+- Управление временем — [time_control](https://github.com/r-vvch/Coursera_Web/tree/master/JS_part_1/3_week/time_control "Перейти к расположению")
+
+### 4 неделя:
+**Функции**
+- Выборка элементов коллекции — [collection_functions](https://github.com/r-vvch/Coursera_Web/tree/master/JS_part_1/4_week/collection_functions "Перейти к расположению")
+
+### 5 неделя:
+**Контекст исполнения**
+- Подписка на события — [subscription](https://github.com/r-vvch/Coursera_Web/tree/master/JS_part_1/5_week/subscription "Перейти к расположению")
 
 ## Основы HTML и CSS
 
